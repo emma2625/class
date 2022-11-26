@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    /* background-image: linear-gradient(to bottom left,red,blue); */
+    /* background-image: linear-gradient(223deg,red -12%,blue 122%); */
+    /* background-image: radial-gradient(red 30%,blue 96%); */
+    /* background-image: repeating-linear-gradient(99deg, red 25%,blue 24%, yellow 35%); */
+    /* background-image: repeating-radial-gradient(red 20%,blue 24%); */
+    border-radius: 50%;
+    /* background-image: conic-gradient(red 20%,green 19%); */
+}

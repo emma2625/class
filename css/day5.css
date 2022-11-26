@@ -1,0 +1,27 @@
+.contain{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+  
+    border-style: groove;
+    border-width: 60px;
+    border-color: purple;
+
+    /* border: 20px groove purple; */
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+    /* margin:  40px 20px 30px 10px; */
+    /* margin-top: 50px;
+    margin-left: 100px; */
+    margin: 20px auto;
+    background-color: hotpink;
+    padding: 10px;
+    box-shadow: -40px 30px 30px -10px gray,
+                -50px 40px 30px 10px red,
+                -60px 50px 30px 12px green,
+                inset 10px 10px 5px 5px red,
+                inset -10px -10px 5px 5px red;
+}

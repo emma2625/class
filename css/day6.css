@@ -1,0 +1,83 @@
+#parent{
+    background-color: limegreen;
+    border: 2px solid;
+    padding: 20px;
+    /* width: 400px; */
+}
+
+#parent li{
+    font-size: 30px;
+}
+
+#parent > .wrap{
+    border: 1px solid;
+    padding: 20px;
+}
+
+.fold{
+    color: red;
+}
+.fold + li{
+    color: yellow;
+}
+.fold ~ li{
+    color: white;
+}
+
+.list{
+    list-style: square;
+    border: 1px solid;
+}
+
+.list > li:hover{
+    color: purple;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.content > button{
+    padding: 10px 30px;
+}
+.content > button:active{
+    background-color: green;
+}
+.content > button:focus{
+    background-color: red;
+}
+
+.list:first-child{
+    color: blue;
+}
+.list li:nth-child(3){
+    color: yellow;
+}
+
+.card{
+    width: 300px;
+    border-radius: 20px;
+    padding: 0;
+    margin-bottom: 30px;
+    margin: 30px auto;
+    background-color: aqua;
+    box-shadow: 0 0 20px 0 grey;
+}
+.card > img{
+    width: 100%;
+    height: 260px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.caption{
+    padding: 15px;
+}
+
+.caption > button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: purple;
+    color: white;
+}

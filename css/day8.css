@@ -1,0 +1,26 @@
+.wrapper > div{
+    border: 1px solid;
+    padding: 30px;
+    background-color: green;
+}
+
+.wrapper > div:nth-child(even){
+    background-color: yellow;
+}
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 10px;
+    gap: 20px;
+    grid-auto-rows: minmax(300px,auto);
+}
+
+.first{
+ 
+}
+.sixth{
+   
+}
